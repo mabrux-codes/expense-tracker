@@ -1,4 +1,4 @@
-function ExpenseTable({ expenses }) {
+function ExpenseTable({ expenses, onDeleteExpense }) {
   return (
     <table className="expense-table">
       <thead>
@@ -8,6 +8,7 @@ function ExpenseTable({ expenses }) {
           <th>Category</th>
           <th>Amount (Ksh)</th>
           <th>Date</th>
+          <th>Actions</th>
         </tr>
       </thead>
       <tbody>
@@ -18,6 +19,9 @@ function ExpenseTable({ expenses }) {
             <td>{exp.category}</td>
             <td>{exp.amount}</td>
             <td>{exp.date}</td>
+            <td>
+              <button onClick={() => onDeleteExpense(index)}>Delete</button>
+            </td>
           </tr>
         ))}
       </tbody>
