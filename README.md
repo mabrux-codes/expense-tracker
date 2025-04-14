@@ -1,12 +1,83 @@
-# React + Vite
+💸 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that helps users track their expenses. Users can add, view, and filter expenses in real-time. Built with React and styled using pure CSS.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ View a list of all expenses
 
-## Expanding the ESLint configuration
+✅ Add a new expense with name, description, category, amount, and date
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Filter expenses in real-time by typing in the search bar
+
+✅ Responsive layout for desktop and mobile
+
+🛠️ Tech Stack
+
+React
+
+Vite (for fast development)
+
+Pure CSS (no frameworks)
+
+🛆 Installation
+
+Clone the repository
+
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+
+Install dependencies
+
+npm install
+
+Start the development server
+
+npm run dev
+
+Open in browser
+
+Visit http://localhost:5173 in your browser.
+
+📁 Project Structure
+
+expense-tracker/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── ExpenseForm.jsx
+│   │   ├── ExpenseTable.jsx
+│   │   └── SearchBar.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── package.json
+└── README.md
+
+🧐 Concepts Covered
+
+React components and state management
+
+Form handling in React
+
+Filtering data using Array.filter()
+
+Conditional rendering
+
+Responsive web design with CSS
+
+
+📌 Future Improvements
+
+Add localStorage to persist expenses
+
+Edit and delete expense entries
+
+Sort expenses by date or amount
+
+👨‍💻 Author
+
+Built with ❤️ by Abel Lukwaro
+
+Feel free to fork, clone, and modify this project as needed!
